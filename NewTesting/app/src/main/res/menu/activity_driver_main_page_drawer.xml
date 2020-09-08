@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/ride_completed"
+                android:icon="@drawable/ride"
+                android:title="About Ride"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/logout"
+                android:title="Logout"/>
+
+        </menu>
+    </item>
+
+</menu>
